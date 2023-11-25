@@ -1,0 +1,369 @@
+body {
+    font-family: "Frutiger", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+
+#icono {
+    color:#f27733;
+}
+
+#menu1{
+    background-color: rgba(135, 131, 131, 0.082);
+    color: rgb(33, 37, 41);
+}
+
+.lenguage-select{
+    border: 0;
+
+}
+
+#botonesv{
+    background: rgb(20, 97, 61) ;
+    height: 4rem;
+    border-radius: 0%;
+    border: 0;
+    border-bottom: solid 5px rgb(28, 53, 43);
+    font-size: large;
+    margin-top: -1rem;
+}
+
+#row1{
+    width: auto;
+    min-width: max-content;
+}
+
+#botonesv:hover{
+    background: #0a3622;
+}
+
+#texto-principal{
+    color: #f27733;
+    padding-bottom: 3rem;
+    font-size: 69.44px;
+    font-weight: 300;
+    letter-spacing: -0.868px;
+    margin-bottom: 26.708px;
+    margin-top: 66.7693px;
+    text-align: start;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    position: relative;
+}
+
+#llamada{
+    padding-bottom: 1.5rem;
+    max-width: 500px;
+    color: rgb(33, 37, 41);
+    font-size: 24.8px;
+    font-weight: 300;
+    line-height: 37.2px;
+    padding-left: 4rem;
+    position: relative;
+}
+
+#text-direccion{
+    color: rgb(33, 37, 41);
+    font-size: 24.8px;
+    font-weight: 300;
+    line-height: 37.2px;
+    text-align: start;
+    padding-left: 4rem;
+    position: relative;
+    
+}
+#contenedor{
+    width: 90%;
+}
+
+#fondo {
+  background-image: url(fotos/fondo.jpg);
+  background-position: 100%;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+  margin-top: -4.7rem;
+}
+
+#fondo::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 560px;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(234deg, rgba(255, 255, 255, 0.10) 50%, rgba(255, 255, 255, 0.90) 60%);
+  background: linear-gradient(261deg, rgba(255, 255, 255, 0.10) 50%, rgba(255, 255, 255, 0.90) 60%);
+}
+
+.img-fluid {
+    background: top center no-repeat;
+    height:40rem;
+    width: 100%;
+}
+    
+.d-grid {
+    background-color: #f27733;
+}
+
+  #cuadro{
+    background-color:rgb(242, 119, 51);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: aliceblue;
+}
+
+.texto1{
+    color: rgb(255, 255, 255);
+    font-family: "Frutiger", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+    font-size: 19.84px;
+    font-weight: 700;
+}
+
+.texto2{
+    color: rgb(255, 255, 255);
+    font-size: 19.84px;
+    font-weight: 400;
+    line-height: 29.7667px;
+}
+
+  #cuadro a{
+    text-decoration: none;
+    color: antiquewhite;
+    
+  }
+
+  #banner{
+    background-color:#f27733;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 5rem;
+    font-size: 19.84px;
+    font-weight: 700;
+    line-height: 29.7667px;
+    text-align: center;
+  }
+
+  #p1{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+
+ #parrafo{
+    box-sizing: border-box;
+    color:rgb(99, 100, 103);
+    font-size: 19.84px;
+    font-weight: 400;
+    line-height: 29.7667px;
+    margin-bottom: 29.76px;
+    background-color: #f9f9f9;
+    background-origin: padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+ }
+
+ .inicio{
+  color: #f27733;
+  font-size: 34.72px;
+  text-align: center;
+
+ }
+ 
+ a {
+  color: rgba(0, 0, 0, 0.671);
+  font-size: 1.5rem;
+ }
+ 
+#im{
+    height: 25rem;
+}
+
+#lista{
+    list-style-position: inside;
+    line-height: 3rem;
+}
+
+.text-orange{
+    color: #f27733;
+    font-size: 2rem;
+    text-align: start;
+}
+
+.card-text{
+    margin-top: 2rem;
+    margin-bottom: 29.76px;
+    line-height: 29.7667px;
+    font-size: 19.84px;
+    color:#636467;
+    font-weight: 300;
+    text-align: start;
+}
+
+.button--orange {
+    background-color: #c85200;
+    box-shadow: inset -6px 0 0 #953d00;
+    border-bottom-color:rgb(255, 255, 255);
+    border-left-color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15.872px;
+    padding-bottom: 10.7136px;
+    padding-left: 23.808px;
+    padding-right: 23.808px;
+    padding-top: 10.7136px;
+    line-height: 29.7667px;
+    text-align: center;
+}
+
+#listas{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#more{
+    color: rgb(99, 100, 103);
+    pointer-events: none;
+    cursor: default;
+}
+#tatext{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.element{
+    color: rgb(99, 100, 103);
+    font-size: 19.84px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#contenedor{
+    width: 90%;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#pregunta{
+    color:rgb(242, 119, 51);
+    font-size: 34.72px;
+}
+
+.recuadro{
+    background: #f0f0f0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.linea{
+    border-bottom: rgb(33, 37, 41);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+
+}
+.recuadro p{
+    font-size: 19.84px;
+    color: rgb(99, 100, 103);
+    font-size: 19.84px;
+    line-height: 29.7667px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.columna1{
+    font-size: 19.84px;
+    color: rgb(99, 100, 103);
+    font-size: 19.84px;
+    line-height: 29.7667px;
+    font-weight: 400;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.columna2{
+    font-size: 19.84px;
+}
+
+.numero{
+    color: #f27733;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.letras p{
+    color: #636467;
+    text-align: left;
+    font-weight: 400;
+}
+ 
+.cuadro1 p{
+    font-size: 19.84px;
+    line-height: 29.7667px;
+    margin-bottom: 29.76px;
+    text-align: left;
+}
+
+.listfo li a{
+    text-decoration: none;
+    font-size:  0.85em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-left: 0;
+}
+
+.listfo {
+    list-style: none;
+
+}
+
+h6{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    letter-spacing: 1.6368px;
+    text-align: start;
+    font-size: 0.75em;
+    line-height: 1.6em;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+     padding-bottom: 0.3em;
+    margin-bottom: 0.75em;
+    margin-left: 2rem;
+}
+
+#final a{
+    color: #555;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#date{
+    color: rgb(33, 37, 41);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+
+#face{
+    color: blue;
+
+}
+
+#link:hover{
+    color: #28764d;
+}
